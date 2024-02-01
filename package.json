@@ -1,0 +1,23 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvidos para gerenciar perguntas anonimas de usuários",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Pablo Rossoni",
+  "license": "ISC",
+  "dependencies": {
+    "3": "^2.1.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
